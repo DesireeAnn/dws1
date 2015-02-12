@@ -1,3 +1,70 @@
+/*---main styles--*/
 body {
-	background-color: #D2D6D9;}
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 0.75em;
+	background-color: rgb(11,67,140);
+	padding: 10px;
+	margin: 40px;	
+}
 
+#container {
+	border: 1px solid #f2f2f2;
+	padding: inherit;
+	background-color: rgba(242,242,242,0.75);	
+}
+
+/*---headers---*/
+h1 {
+	font-family: 'Patua One', cursive;
+	font-size: 3.5em;
+	text-shadow: 1px 1px #666666;
+	text-align: center;
+} 
+
+h2 {
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1.17em;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#logo {
+	width: 204px;
+	height: 300px;
+	border: 5px solid rgb(13, 79, 166);
+	text-align: center;
+	margin: 0px auto 0px auto;	
+}
+
+/*---lists---*/
+ul {
+	list-style-type: none;
+	display: inline;
+	text-align: center;	
+	margin: 0px auto 0px auto;
+}
+
+ol {
+	list-style-type: upper-roman;
+}
+	
+	
+/*---links---*/
+a:link  {
+	text-decoration: none;}
+	
+a:hover  {
+	text-decoration: underline;}
+	
+a:visited {
+	color: rgb(8, 48, 99);
+}
+
+a:active {
+	color: rgb(177, 10, 27);
+}
