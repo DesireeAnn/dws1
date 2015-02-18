@@ -9,6 +9,8 @@ body {
 
 #container {
 	border: 1px solid #f2f2f2;
+	width: 780px;
+	margin: 10px auto;
 	padding: inherit;
 	background-color: rgba(242,242,242,0.75);
 	box-shadow: inset 0 0 10px #777777;
@@ -43,13 +45,20 @@ h3 {
 	margin: 0px auto 3px auto;	
 }
 
+#images {
+	width: 640px;
+	margin: auto;
+}
+	
+
 /*---lists---*/
 ul {
 	list-style-type: none;
 	text-align: center;
 	font-size: 1.17em;
 }
-li { 
+
+li.nav { 
 	display: inline;
 	margin: 0px 3px;
 }
