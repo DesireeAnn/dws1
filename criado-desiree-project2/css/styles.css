@@ -40,15 +40,18 @@ h3 {
 	height: 300px;
 	border: 5px solid rgb(13, 79, 166);
 	text-align: center;
-	margin: 0px auto 0px auto;	
+	margin: 0px auto 3px auto;	
 }
 
 /*---lists---*/
 ul {
 	list-style-type: none;
 	text-align: center;
-	display: inline;
 	font-size: 1.17em;
+}
+li { 
+	display: inline;
+	margin: 0px 3px;
 }
 	
 ol {
