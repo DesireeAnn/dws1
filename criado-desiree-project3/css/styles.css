@@ -2,37 +2,41 @@
 body {
 	font-family: Arial, Verdana, sans-serif;
 	font-size: 0.75em;
-	background-color: rgb(11,67,140);
-	padding: 10px;
-	margin: 40px;	
+	background-color: #fff;
+	padding: 5px;
+	margin: 5px;	
 }
 
-#container {
+/*---columns---*/
+#column1of2 {
+	float: left;
+	width: 50%;
+	margin: 2px;
+	overflow: auto;
 	border: 1px solid #f2f2f2;
-	width: 780px;
-	margin: 10px auto;
-	padding: inherit;
+	padding: 10px;
 	background-color: rgba(242,242,242,0.75);
 	box-shadow: inset 0 0 10px #777777;
 	border-radius: 10px;
 }
 
-/*---columns---*/
-.content {
-	float: left;
-	width: 620px;
-	margin: 10px;
-}
-.images {
-	float: left;
-	width: 300px;
-	margin: 10px;
+#column2of2 {
+	float: right;
+	width: 40%;
+	margin: 2px;
+	overflow: auto;
+	border: 1px solid #f2f2f2;
+	padding: 10px;
+	background-color: rgba(242,242,242,0.75);
+	box-shadow: inset 0 0 10px #777777;
+	border-radius: 10px;
 }
 
 /*---headers---*/
 h1 {
 	font-family: 'Patua One', cursive;
 	font-size: 3.5em;
+	color: #fff;
 	text-shadow: 1px 1px #666666;
 	text-align: center;
 } 
@@ -56,12 +60,6 @@ h3 {
 	text-align: center;
 	margin: 0px auto 3px auto;	
 }
-
-#images {
-	width: 640px;
-	margin: auto;
-}
-	
 
 /*---lists---*/
 ul {
